@@ -11,7 +11,7 @@ This is a beginning accumulation of new things I am excited to learn about & sha
 
 # Theory
 ## Cosmology
-Our universe has some fascinating properties behind it! 
+Our universe has some fascinating properties behind it. 
 In cosmology, structures originate due to pertubations in a homogenous and isotropic universe. Perturbations grow due to if they are heavier than a mass or scale such as a Jean's length, at which gravity is no longer able to overcome pressure differences.
 
 After the Big Bang, the universe had a large scale structure with overdensities of matter. These overdensities started to coalesce, forming sheets, then filaments, then haloes. Some of these haloes formed early galaxies, and some of these haloes collapsed under their own mass. In this process, they virialize. 

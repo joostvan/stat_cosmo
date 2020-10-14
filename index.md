@@ -14,13 +14,7 @@ In cosmology, structures originate due to pertubations in a homogenous and isotr
 
 After the Big Bang, the universe had a large scale structure with overdensities of matter. These overdensities started to coalesce, forming sheets, then filaments, then haloes. Some of these haloes formed early galaxies, and some of these haloes collapsed under their own mass. In this process, they virialize. 
 ## Gaussians
-$$
-M = \left( \begin{array}{ccc}
-x_{11} & x_{12} & \ldots \\
-x_{21} & x_{22} & \ldots \\
-\vdots & \vdots & \ldots \\
-\end{array} \right)
-$$
+you can use an inline formula $$\forall x \in R$$ like this one
 
 -
 ### Code

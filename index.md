@@ -1,5 +1,5 @@
 ## Joost's Updates on 499
-This is an accumulation of new things I am excited to learn about & share about during my research with Dr. Ravi Sheth. It can be broadly separated in the following categories:
+This is a beginning accumulation of new things I am excited to learn about & share about during my research with Dr. Ravi Sheth. It can be broadly separated in the following categories:
 
 ```
 - Theory
@@ -7,8 +7,13 @@ This is an accumulation of new things I am excited to learn about & share about 
 - Results
 ```
 ### Theory
+## Cosmology
 Our universe has some fascinating properties behind it! 
-- 5 Padwanaban Properties
+In cosmology, structures originate due to pertubations in a homogenous and isotropic universe. Perturbations grow due to if they are heavier than a mass or scale such as a Jean's length, at which gravity is no longer able to overcome pressure differences.
+
+After the Big Bang, the universe had a large scale structure with overdensities of matter. These overdensities started to coalesce, forming sheets, then filaments, then haloes. Some of these haloes formed early galaxies, and some of these haloes collapsed under their own mass. In this process, they virialize. 
+## Gaussians
+
 -
 ### Code
 Gadget-2 is software developed by Volker Springel at the Max Planck Institute in Munich, Germany. To set it up requires the following:

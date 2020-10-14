@@ -1,4 +1,4 @@
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+{% include lib/mathjax.html %}
 ## Joost's Updates on 499
 This is a beginning accumulation of new things I am excited to learn about & share about during my research with Dr. Ravi Sheth. It can be broadly separated in the following categories:
 

@@ -43,8 +43,7 @@ Taking the fourier transform of both sides and negating the $$k=0$$ mode:
 $$\delta_k(t) = \int d^{3}x \times V \times exp(ikx)\delta(x,t) = \frac{1}{N} \Sum{exp ikx_i(t)}$$
 
 Taking the derivative of this expression, there is:
-$$\dot{\delta_k(t)} = $$ 
-$$\frac{1}{N} \Sum{(ik\dot{x}_j exp ikx_j}{j} $$ and
+$$\dot{\delta_k(t)} = \frac{1}{N} \Sum{}(ik\dot{x}_j exp ikx_j) $$ and
 $$\ddot{\delta_k(t)} $$ 
 
 $$ = \frac{1}{N} \Sum{[(ik\ddot{x}_j -(k\dot{x}_j)^2]exp ikx_j}{j}$$

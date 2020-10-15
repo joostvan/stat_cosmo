@@ -58,10 +58,10 @@ $$P(x) = \frac{1}{\sigma \sqrt {2\pi}}$$
 $$e^{\frac{-({x - \mu})^2}{2\sigma ^2 }}$$
 where $$\mu = E(X)$$ and $$\sigma^2 = var(X) > 0$$ are the mean and variance of $$X$$. We write $$X ~ N(\mu, \sigma^2)$$. 
 Mills Inequality allows one to find the decay of the tail whereby:
-$$P(X-\mu>t) \leq \frac{1}{{t\sqrt {2\pi } }}e^{{{ - \left( t } \right)^2 } \mathord{\left/ {\vphantom {{ - \left( {x - \mu } \right)^2 } {2\sigma ^2 }}} \right. \kern-\nulldelimiterspace} {2\sigma ^2 }}}$$ which allows one to find the probability of occurance given a t value.
+$$P(X-\mu>t) \leq \frac{1}{t \sqrt {2\pi}}e^{\frac{t)^2}{2\sigma ^2 }}$$  which allows one to find the probability of occurance given a t value.
 That a Gaussian random variable Z has tails that decay to zero exponentially fast can be seen in the Moment Generating Function:
 $$M : s -> M(S) = E[exp(sZ]$$
-$$M(s) = E[exp(sZ)] = \frac{1}{{\sqrt {2\pi } }}e^{sz}e^{{{ - \left( z } \right)^2 } \mathord{\left/ {\vphantom {{ - \left( {x - \mu } \right)^2 } {2}}} \right. \kern-\nulldelimiterspace} {2 }}}$$
+$$M(s) =  E[exp(sZ)] = \frac{1}{t \sqrt {2\pi}}e^{\frac{z)^2}{2}}$$ 
 $$=e^{frac{s^2}{2}}$$
 If $$X ~ N(\mu, \sigma^2)$$, then $$E[exp(sX]$$ = exp(s\mu+\frac{\sigma^2\s^2}{2}
 #### Sub-gaussian RV's and Chernoff Bounds

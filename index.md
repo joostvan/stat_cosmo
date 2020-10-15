@@ -42,9 +42,12 @@ Taking the fourier transform of both sides and negating the $$k=0$$ mode:
 
 $$\delta_k(t) = \int d^{3}x \times V \times exp(ikx)\delta(x,t) = \frac{1}{N} \Sum{exp ikx_i(t)}$$
 
-Differentianting this expression, there is:
-$$\dot{\delta_k(t)} = \frac{1}{N} \Sum{(ik\dot{x}_j exp ikx_j}{j} $$ and
-$$\ddot{\delta_k(t)} = \frac{1}{N} \Sum{[(ik\ddot{x}_j -(k\dot{x}_j)^2]exp ikx_j}{j}$$
+Taking the derivative of this expression, there is:
+$$\dot{\delta_k(t)} = $$ 
+$$\frac{1}{N} \Sum{(ik\dot{x}_j exp ikx_j}{j} $$ and
+$$\ddot{\delta_k(t)} $$ 
+
+$$ = \frac{1}{N} \Sum{[(ik\ddot{x}_j -(k\dot{x}_j)^2]exp ikx_j}{j}$$
 
 We have also that $$\"{x}_i + 2\frac{\dot{a}}{a}\dot{x_i} = -\frac{1}{a^2}\nabla_x\phi$$
 
@@ -63,7 +66,7 @@ That a Gaussian random variable Z has tails that decay to zero exponentially fas
 $$M : s -> M(S) = E[exp(sZ]$$
 $$M(s) =  E[exp(sZ)] = \frac{1}{t \sqrt {2\pi}}e^{\frac{z)^2}{2}}$$ 
 $$=e^{frac{s^2}{2}}$$
-If $$X ~ N(\mu, \sigma^2)$$, then $$E[exp(sX]$$ = exp(s\mu+\frac{\sigma^2\s^2}{2}
+If $$X ~ N(\mu, \sigma^2)$$, then $$E[exp(sX]$$ = exp(s\mu+\frac{\sigma^2\s^2}{2}$$
 #### Sub-gaussian RV's and Chernoff Bounds
 
 #### Moments

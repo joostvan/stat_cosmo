@@ -28,7 +28,7 @@ Should $$\lambda_1 = \lambda_2 = \lambda_3$$ then spherical symmetric collapse o
 
 ### Interesting Padwanabhan Problem:
 
-A physical quantity f(t,x) - which could be, for example, $$\delta(t,x)$$ or $$v(t,x)$$ -- evolves in time in accordance with some differential equation. To determine any such quantity at time t, we need to know its exact space dependence at some initial instant t=t_i (e.g. to determine $$\delta(t,x)$$ we need to know $$\delta(t_i,x)$$. Often, we are not interested in the exact form of \delta(t,x), but only its "statistical properties" in the following sense. We may assume that for sufficiently small t_i, each Fourier mode $$\delta_k(t_i)$$ was a Gaussian random varialbe with:
+A physical quantity f(t,x) - which could be, for example, $$\delta(t,x)$$ or $$v(t,x)$$ -- evolves in time in accordance with some differential equation. To determine any such quantity at time t, we need to know its exact space dependence at some initial instant t=t_i (e.g. to determine $$\delta(t,x)$$ we need to know $$\delta(t_i,x)$$. Often, we are not interested in the exact form of $$\delta(t,x)$$, but only its "statistical properties" in the following sense. We may assume that for sufficiently small t_i, each Fourier mode $$\delta_k(t_i)$$ was a Gaussian random varialbe with:
 
 $$\left\langle \delta_\mathbf{k}(t_i)\delta_\mathbf{p}^*(t_i) \right\rangle = (2\pi)^3P(\mathbf{k},t_i)\delta_{dirac}(\mathbf{k}-\mathbf{p})$$ where $$P(\mathbf{k},t_i)$$ is the power spectrum of $$\delta(t_i,x)$$ and $$\left\langle .... \right\rangle$$ is the ensemble average. 
 

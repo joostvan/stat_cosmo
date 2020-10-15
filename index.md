@@ -27,29 +27,30 @@ $$p(r,t)=\frac{P_o(t)}{(1-b(t)\lambda_1(q)(1-b(t)\lambda_2(q)(1-b(t)\lambda_3(q)
 Should $$\lambda_1 = \lambda_2 = \lambda_3$$ then spherical symmetric collapse occurs as opposed to ellipsoidal collapse occurs if there is a $$\lambda_1 > \lambda_2 > \lambda_3$$. 
 
 ### Interesting Padwanabhan Problem:
-``` 
+
 A physical quantity f(t,x) - which could be, for example, $$\delta(t,x)$$ or $$v(t,x)$$ -- evolves in time in accordance with some differential equation. To determine any such quantity at time t, we need to know its exact space dependence at some initial instant t=t_i (e.g. to determine $$\delta(t,x)$$ we need to know $$\delta(t_i,x)$$. Often, we are not interested in the exact form of \delta(t,x), but only its "statistical properties" in the following sense. We may assume that for sufficiently small t_i, each Fourier mode $$\delta_k(t_i)$$ was a Gaussian random varialbe with:
-```
-```
+
 $$\left\langle \delta_\mathbf{k}(t_i)\delta_\mathbf{p}^*(t_i) \right\rangle = (2\pi)^3P(\mathbf{k},t_i)\delta_{dirac}(\mathbf{k}-\mathbf{p})$$ where $$P(\mathbf{k},t_i)$$ is the power spectrum of $$\delta(t_i,x)$$ and $$\left\langle .... \right\rangle$$ is the ensemble average. 
-```
-```
+
 The Gaussian nature of $$\delta_k$$ cannot be maintained for $$t>t_i$$ if the evolution couples the modes for different values of $$\textbf{k}$$. 
-```
-```
-The density $$p(x,t)$$ due to a set of point particles, each of mass m, is given by: $$p(x,t) = \frac{m}{a^3(t)}\Sum{\delta_{Dirac}(x-x_i(t))}{i}. The density contrast $$\delta(x,t)$$ is related to the density $$\ro(x,t)$$ by:
-```
-```
-1+\delta(x,t) = \frac{\ro(x,t)}{\ro_b} = \frac{m}{\ro_b a^3} \Sum{\delta_{Dirac}(x-x_1) = \frac{mV}{M}\Sum{\delta_{Dirac}(x-x_1)
-```
+
+The density $$p(x,t)$$ due to a set of point particles, each of mass m, is given by: $$p(x,t) = \frac{m}{a^3(t)}\Sum{\delta_{Dirac}(x-x_i(t))}{i}.$$ The density contrast $$\delta(x,t)$$ is related to the density $$\ro(x,t)$$ by:
+
+$$1+\delta(x,t) = \frac{\ro(x,t)}{\ro_b} = \frac{m}{\ro_b a^3} \Sum{\delta_{Dirac}(x-x_1) = \frac{mV}{M}\Sum{\delta_{Dirac}(x-x_1)$$
+
 Taking the fourier transform of both sides and negating the $$k=0$$ mode:
-```
-\delta_k(t) = \int d^{3}x \times V \times exp(ikx)\delta(x,t) = \frac{1}{N} \Sum{exp ikx_i(t)}
-```
+
+$$\delta_k(t) = \int d^{3}x \times V \times exp(ikx)\delta(x,t) = \frac{1}{N} \Sum{exp ikx_i(t)}$$
+
 Differentianting this expression, there is:
-```
-\dot{\delta_k(t)} = \frac{1}{N} \Sum{(ik\dot{x}_j exp ikx_j}{j}
-```
+$$\dot{\delta_k(t)} = \frac{1}{N} \Sum{(ik\dot{x}_j exp ikx_j}{j} $$ and
+$$\ddot{\delta_k(t)} = \frac{1}{N} \Sum{[(ik\ddot{x}_j -(k\dot{x}_j)^2]exp ikx_j}{j}$$
+
+We have also that $$\"{x}_i + 2\frac{\dot{a}}{a}\dot{x_i} = -\frac{1}{a^2}\nabla_x\phi$$
+
+Using the above to eliminate $$\ddot{x}_j$$, one gets an equation for $$\delta_k(t)$$:
+$$\ddot{\delta_i} + 2\frac{\dot{a}}{a}\dot{\delta_i} = -\frac{1}{N}\sum{\frac{ik\nabla\phi_j}{a^2}} - B$$ where $$B = \frac{1}{N}\sum{\frac{m}{M}(k\dot{x}_j)^2exp(ikx_j}$$
+
 ## Gaussians
 ### Gaussian Tails and MGF
 #### Sub-gaussian RV's and Chernoff Bounds

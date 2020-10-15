@@ -50,7 +50,7 @@ We have also that $$\"{x}_i + 2\frac{\dot{a}}{a}\dot{x_i} = -\frac{1}{a^2}\nabla
 
 Using the above to eliminate $$\ddot{x}_j$$, one gets an equation for $$\delta_k(t)$$:
 $$\ddot{\delta_i} + 2\frac{\dot{a}}{a}\dot{\delta_i} = -\frac{1}{N}\sum{\frac{ik\nabla\phi_j}{a^2}} - B$$ where $$B = \frac{1}{N}\sum{\frac{m}{M}(k\dot{x}_j)^2exp(ikx_j}$$
-
+We have here for that the modes for different values of k mix with each other as $$ t >t_i$$ due to the B term; should $$\delta(t,x)<<1$$ then the evolution is described by $$\delta(t,x)$$ by linear perturbation theory. This in effect becomes: $$\delta_k(t) = T_k(t,t_i)\delta_k(t_i)$$
 ## Gaussians
 ### Gaussian Tails and MGF
 #### Sub-gaussian RV's and Chernoff Bounds

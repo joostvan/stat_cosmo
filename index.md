@@ -61,7 +61,7 @@ That a Gaussian random variable Z has tails that decay to zero exponentially fas
 $$M : s -> M(S) = E[exp(sZ]$$
 $$M(s) = E[exp(sZ)] = \frac{1}{{\sqrt {2\pi } }}e^{sz}e^{{{ - \left( z } \right)^2 } \mathord{\left/ {\vphantom {{ - \left( {x - \mu } \right)^2 } {2}}} \right. \kern-\nulldelimiterspace} {2 }}}$$
 $$=e^{frac{s^2}{2}}$$
-If $$X ~ N(\mu, \sigma^2)$$, then $$E[exp(sX]$$ = exp(s\mu+\frac{\sigma^2\s^2}{2}
+If $$X ~ N(\mu, \sigma^2)$$, then $$E[exp(sX]$$ = exp(s\mu+\frac{\sigma^2\s^2}{2}$$
 #### Sub-gaussian RV's and Chernoff Bounds
 
 #### Moments

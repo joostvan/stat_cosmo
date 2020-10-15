@@ -54,7 +54,8 @@ We have here for that the modes for different values of k mix with each other as
 ## Gaussians
 ### Gaussian Tails and MGF
 A Random Variable $X \in \mathds{R} has a Gaussian Distribution iff it has a density p wiht respect to the Lebesgue measure on \mathds{R} given by:
-$$P(x) = \frac{1}{\sigma \sqrt {2\pi}}e^{\frac{-({x - \mu})^2}{2\sigma ^2 }}$$ 
+$$P(x) = \frac{1}{\sigma \sqrt {2\pi}}$$ 
+$$e^{\frac{-({x - \mu})^2}{2\sigma ^2 }}$$
 where $$\mu = E(X)$$ and $$\sigma^2 = var(X) > 0$$ are the mean and variance of $$X$$. We write $$X ~ N(\mu, \sigma^2)$$. 
 Mills Inequality allows one to find the decay of the tail whereby:
 $$P(X-\mu>t) \leq \frac{1}{{t\sqrt {2\pi } }}e^{{{ - \left( t } \right)^2 } \mathord{\left/ {\vphantom {{ - \left( {x - \mu } \right)^2 } {2\sigma ^2 }}} \right. \kern-\nulldelimiterspace} {2\sigma ^2 }}}$$ which allows one to find the probability of occurance given a t value.

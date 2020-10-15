@@ -54,14 +54,15 @@ We have here for that the modes for different values of k mix with each other as
 ## Gaussians
 ### Gaussian Tails and MGF
 A Random Variable $X \in \mathds{R} has a Gaussian Distribution iff it has a density p wiht respect to the Lebesgue measure on \mathds{R} given by:
-$$P(x) = \frac{1}{{\sigma \sqrt {2\pi } }}e^{{{ - \left( {x - \mu } \right)^2 } \mathord{\left/ {\vphantom {{ - \left( {x - \mu } \right)^2 } {2\sigma ^2 }}} \right. \kern-\nulldelimiterspace} {2\sigma ^2 }}}$$ where $$\mu = E(X)$$ and $$\sigma^2 = var(X) > 0$$ are the mean and variance of $$X$$. We write $$X ~ N(\mu, \sigma^2)$$. 
+$$P(x) = \frac{1}{{\sigma \sqrt {2\pi } }}e^{{{ - \left( {x - \mu } \right)^2 } \mathord{\left/ {\vphantom {{ - \left( {x - \mu } \right)^2 } {2\sigma ^2 }}} \right. \kern-\nulldelimiterspace} {2\sigma ^2 }}}$$ 
+where $$\mu = E(X)$$ and $$\sigma^2 = var(X) > 0$$ are the mean and variance of $$X$$. We write $$X ~ N(\mu, \sigma^2)$$. 
 Mills Inequality allows one to find the decay of the tail whereby:
 $$P(X-\mu>t) \leq \frac{1}{{t\sqrt {2\pi } }}e^{{{ - \left( t } \right)^2 } \mathord{\left/ {\vphantom {{ - \left( {x - \mu } \right)^2 } {2\sigma ^2 }}} \right. \kern-\nulldelimiterspace} {2\sigma ^2 }}}$$ which allows one to find the probability of occurance given a t value.
 That a Gaussian random variable Z has tails that decay to zero exponentially fast can be seen in the Moment Generating Function:
 $$M : s -> M(S) = E[exp(sZ]$$
 $$M(s) = E[exp(sZ)] = \frac{1}{{\sqrt {2\pi } }}e^{sz}e^{{{ - \left( z } \right)^2 } \mathord{\left/ {\vphantom {{ - \left( {x - \mu } \right)^2 } {2}}} \right. \kern-\nulldelimiterspace} {2 }}}$$
 $$=e^{frac{s^2}{2}}$$
-If $$X ~ N(\mu, \sigma^2)$$, then $$E[exp(sX]$$ = exp(s\mu+\frac{\sigma^2\s^2}{2}$$
+If $$X ~ N(\mu, \sigma^2)$$, then $$E[exp(sX]$$ = exp(s\mu+\frac{\sigma^2\s^2}{2}
 #### Sub-gaussian RV's and Chernoff Bounds
 
 #### Moments
@@ -79,7 +80,5 @@ Gadget-2 is software developed by Volker Springel at the Max Planck Institute in
 
 Along the way, I had trouble with the following errors. After being exposed to bash commands through my summer internship, setting up the right compilers and editing the paths proved a challenge and I learned how to work with Fortran/C++ based simulations. The next hurdle was establishing N-GenIC which required similar troubleshooting with the common error, for example, of "dr.fftw_mpi.h", which could be fixed after ensuring that FFTW has been re-downloaded, but more importantly, set up properly, by specifying the compiler such as clang or GNN. 
 # Results
-Here is my simulation of 2 galaxies colliding.
-![](galaxiescollide.gif)
 
 -

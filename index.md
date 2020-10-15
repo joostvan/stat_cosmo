@@ -1,6 +1,6 @@
 {% include lib/mathjax.html %}
 # Joost's Updates on 499
-This is a beginning accumulation of new things I am excited to learn about & share about during my research with Dr. Ravi Sheth. It can be broadly separated in the following categories:
+This is a beginning accumulation of new things I am excited to learn about & share about during my research with Dr. Ravi Sheth. So lucky to have this opportunity and thankful for these discussions. It can be broadly separated in the following categories:
 
 ```
 - Theory
